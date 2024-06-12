@@ -9,7 +9,7 @@ spec:
   source:
     repoURL: https://github.com/chatinder/argocd-example-apps.git
     targetRevision: HEAD
-    path: dev
+    path: guestbook
   destination: 
     server: https://kubernetes.default.svc
     namespace: guestbook
